@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AnimationDecode30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode30.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonRemoveSelection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\ButtonRemoveSelection.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackgroundWizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backgrounds\BackgroundWizard.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode15.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode33.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode23.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode12.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode30.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TxtActionDefaultDescription" xml:space="preserve">
+    <value>Welcome to PixelCryptor, select one of the items above to start</value>
+  </data>
+  <data name="AnimationDecode5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode25.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode27.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode31.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TxtActionEncodeDescription" xml:space="preserve">
+    <value>Create a new package in a few simple steps</value>
+  </data>
+  <data name="TxtActionDefaultTitle" xml:space="preserve">
+    <value>PixelCryptor</value>
+  </data>
+  <data name="AnimationDecode6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode25.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TxtActionHelpDescription" xml:space="preserve">
+    <value>Opens the PixelCryptor's Help file</value>
+  </data>
+  <data name="MsgCommandLineHelpText" xml:space="preserve">
+    <value>PixelCryptor
+©2008 CodeGazer. All rights reserved.
+
+Command specification:
+pixelcryptor.exe [/codefilepath | /cf ...] [/h | /?]
+
+Command arguments:
+/codefilepath	Preselects the codefile
+/?		Displays this help text
+
+These switches were introduced for the file association.
+More options might be added to future versions.</value>
+  </data>
+  <data name="TxtActionDecodeDescription" xml:space="preserve">
+    <value>Restore your files and folders from a package</value>
+  </data>
+  <data name="TxtActionAboutTitle" xml:space="preserve">
+    <value>About PixelCryptor</value>
+  </data>
+  <data name="MsgDeleteAfterEncodeDescription" xml:space="preserve">
+    <value>Are you sure you wish to delete the orginal files and folders
+after the encoding operation?
+
+The removal is final and can't be undone.</value>
+  </data>
+  <data name="AnimationEncode32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode34.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgInvalidPackageTitle" xml:space="preserve">
+    <value>Invalid package or image</value>
+  </data>
+  <data name="ActionEncodeTitle" xml:space="preserve">
+    <value>Encode Files</value>
+  </data>
+  <data name="MainAbout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainAbout.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode18.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode12.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ViewLargeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\ViewLargeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TxtActionAboutDescription" xml:space="preserve">
+    <value>Information on the program and it's creators</value>
+  </data>
+  <data name="AnimationEncode20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode20.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode28.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode21.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ViewList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\ViewList.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImageFrame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImageFrame .png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode19.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonNewFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\ButtonNewFolder.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgCommandLineHelpTitle" xml:space="preserve">
+    <value>PixelCryptor commandline arguments</value>
+  </data>
+  <data name="AnimationDecode1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode34.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode22.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode20.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode26.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TxtActionDecodeTitle" xml:space="preserve">
+    <value>Decode Files</value>
+  </data>
+  <data name="ButtonBrowse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\ButtonBrowse.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogoIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImageKey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImageKey.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgDeleteAfterEncodeTitle" xml:space="preserve">
+    <value>Delete after operation?</value>
+  </data>
+  <data name="ImageNoSelection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImageNoSelection.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode29.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode15.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode22.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ViewSmallIcons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\ViewSmallIcons.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode19.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ViewTiles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\ViewTiles.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackgroundAbout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backgrounds\BackgroundAbout.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TxtActionHelpTitle" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="BackgroundMain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backgrounds\backgroundmain.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode17.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode21.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode14.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainDecode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainDecode.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ViewDetails" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\ViewDetails.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode33.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode18.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode23.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Logo64x64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DestinationFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\destinationfolder.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode29.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonAddFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\ButtonAddFolder.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode31.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonGo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\ButtonGo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TxtActionEncodeTitle" xml:space="preserve">
+    <value>Encode Files</value>
+  </data>
+  <data name="MsgInvalidPackageText" xml:space="preserve">
+    <value>The package you've selected is either invalid or can not
+be unlocked using the image you've specified.</value>
+  </data>
+  <data name="AnimationDecode32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode27.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode28.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationDecode4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationDecode4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode26.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonAddFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\ButtonAddFile.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode14.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnimationEncode17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animations\AnimationEncode17.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainHelp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainHelp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainEncode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\mainencode.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
